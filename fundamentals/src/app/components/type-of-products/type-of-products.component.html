@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col">
+    <app-form-product-type (saveEmit)="onSavetType($event)"></app-form-product-type>
+  </div>
+  <div class="col mt-5 me-5">
+    <app-list-of-types [listOfCategories]="listOfTypeProducts"></app-list-of-types>
+  </div>
+</div>
